@@ -1,0 +1,96 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ClipShareFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVKit
+@_exported import ClipShareFramework
+import Combine
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public struct Clip : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension ClipShareFramework.Clip {
+  public var videoURL: Foundation.URL? {
+    get
+  }
+  public var thumbnailURL: Foundation.URL? {
+    get
+  }
+}
+public protocol ClipShareDelegate : AnyObject {
+  func clipShareViewControllerDidFailLoadingClip(_ viewController: ClipShareFramework.ClipShareViewController)
+  func clipShareViewControllerDidFailCreatingClip(_ viewController: ClipShareFramework.ClipShareViewController)
+  func clipShareViewController(_ viewController: ClipShareFramework.ClipShareViewController, didCreateClip clip: ClipShareFramework.Clip)
+  func clipShareShouldPrefetchURLs(_ imageURLs: [Foundation.URL]) -> Swift.AnyObject?
+  func clipShareShouldLoadImageFrom(url: Foundation.URL, intoImageView imageView: UIKit.UIImageView, completion: ((Swift.Bool) -> Swift.Void)?)
+  func clipShareShouldCancelImageLoadingIn(imageView: UIKit.UIImageView)
+}
+@_hasMissingDesignatedInitializers public class ClipShareUIConfiguration {
+  public var trimTitle: Swift.String
+  public var trimLoadingText: Swift.String
+  public var saveClipButtonText: Swift.String
+  public var epgTitleText: Swift.String
+  public var clipTimestampText: Swift.String
+  public var clipMaximumLengthHint: Swift.String
+  public var snapLoadingFailed: Swift.String
+  public var clipCreationFailedMessage: Swift.String
+  public var clipCreationFailedDismissButton: Swift.String
+  @objc deinit
+}
+public enum ClipShareEnvironment {
+  case test
+  case production
+  public static func == (a: ClipShareFramework.ClipShareEnvironment, b: ClipShareFramework.ClipShareEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objcMembers public class ClipShare {
+  public static var instance: ClipShareFramework.ClipShare? {
+    get
+  }
+  final public let colorConfiguration: ClipShareFramework.ClipShareUIColorConfiguration
+  final public let fontConfiguration: ClipShareFramework.ClipShareUIFontConfiguration
+  final public let uiConfiguration: ClipShareFramework.ClipShareUIConfiguration
+  public class func setup(environment: ClipShareFramework.ClipShareEnvironment = .production)
+  @objc public class func setup(clipShareBackendURL: Foundation.URL)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ClipShareViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public class func forSportEventSnapResultOn(tvChannelId: Swift.Int, tvChannelLogoURL: Foundation.URL?, tvChannelName: Swift.String?, epgUnitNameFallback: Swift.String?, snapTimestamp: Swift.Int64, snapscreenAuthorizationHeader: Swift.String, clipShareDelegate: ClipShareFramework.ClipShareDelegate?) -> ClipShareFramework.ClipShareViewController
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ClipShareUIFontConfiguration {
+  public var baseRegular: UIKit.UIFont
+  public var baseSemibold: UIKit.UIFont
+  public var baseMedium: UIKit.UIFont
+  public var baseBold: UIKit.UIFont
+  public var appTitle: UIKit.UIFont
+  public var smallSemibold: UIKit.UIFont
+  public var mediumRegular: UIKit.UIFont
+  public var mediumSemibold: UIKit.UIFont
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ClipShareUIColorConfiguration {
+  public var trimTimelineBackground: UIKit.UIColor
+  public var primary: UIKit.UIColor
+  public var primaryInline: UIKit.UIColor
+  public var primaryContrast: UIKit.UIColor
+  public var primaryAction: UIKit.UIColor
+  public var channelImageBorder: UIKit.UIColor
+  public var standardText: UIKit.UIColor
+  public var previewBackground: UIKit.UIColor
+  public var primaryContentBackground: UIKit.UIColor
+  public var error: UIKit.UIColor
+  @objc deinit
+}
+extension ClipShareFramework.ClipShareEnvironment : Swift.Equatable {}
+extension ClipShareFramework.ClipShareEnvironment : Swift.Hashable {}

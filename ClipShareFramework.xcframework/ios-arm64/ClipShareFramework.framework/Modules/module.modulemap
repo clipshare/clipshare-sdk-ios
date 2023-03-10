@@ -1,0 +1,11 @@
+framework module ClipShareFramework {
+  umbrella header "ClipShareFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ClipShareFramework.Swift {
+  header "ClipShareFramework-Swift.h"
+  requires objc
+}

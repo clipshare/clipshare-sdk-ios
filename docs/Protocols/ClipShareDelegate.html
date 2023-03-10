@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ClipShareDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Protocol/ClipShareDelegate" class="dashAnchor"></a>
+
+    <a title="ClipShareDelegate Protocol Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          ClipShareFramework 2.0.3 Docs
+        </a>
+        
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">ClipShareFramework Reference</a>
+      <img class="carat" src="../img/carat.png" alt=""/>
+      ClipShareDelegate Protocol Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ClipShare.html">ClipShare</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ClipShareUIColorConfiguration.html">ClipShareUIColorConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ClipShareUIConfiguration.html">ClipShareUIConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ClipShareUIFontConfiguration.html">ClipShareUIFontConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ClipShareViewController.html">ClipShareViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ClipShareEnvironment.html">ClipShareEnvironment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions.html#/APIError">APIError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ClipShareDelegate.html">ClipShareDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Clip.html">Clip</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>ClipShareDelegate</h1>
+            <p>Delegate providing results for the ClipShareViewController</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/clipShareViewControllerDidFailLoadingClip(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">clipShareViewControllerDidFailLoadingClip(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when the underlying clip for the provided SportEventSnapResultEntry failed loading. This is a terminal state and you should most likely dismiss the ClipShareViewController and navigate back to Snap UI or some other screen of your application.
+<strong>Note:</strong> You are responsible for handling navigation away from the ClipShareViewController.</p>
+
+<ul>
+<li>viewController the ClipShareViewController</li>
+</ul>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/clipShareViewControllerDidFailCreatingClip(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">clipShareViewControllerDidFailCreatingClip(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when the trimmed clip could not be created for some reason. This is not a terminal state and the user could try again. Decide on your own if you want to dismiss the ClipShareViewController on your own.</p>
+
+<p><strong>Note:</strong> You are responsible for handling navigation away from the ClipShareViewController.</p>
+
+<ul>
+<li>viewController the ClipShareViewController</li>
+</ul>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/clipShareViewController(_:didCreateClip:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">clipShareViewController(_:<wbr>didCreateClip:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when the user finished trimming a clip and the clip was created. This is not a terminal state and the user can continue to trim another clip if desired. You should decide on your own if you want to dismiss the ClipShareViewController in this case or give the user some indication that the clip was created.</p>
+
+<p><strong>Note:</strong> You are responsible for handling navigation away from the ClipShareViewController.</p>
+
+<ul>
+<li>viewController the ClipShareViewController</li>
+<li>clip the created clip</li>
+</ul>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/clipShareShouldPrefetchURLs(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">clipShareShouldPrefetchURLs(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when ClipShare has loaded the snap information and wants to trigger prefetching of images. Should return a prefetchToken or another disable object that causes prefetching to stop when it is deallocated</p>
+
+<ul>
+<li><p>imageURLs the image URLs to prefetch</p></li>
+</ul>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/clipShareShouldLoadImageFrom(url:intoImageView:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">clipShareShouldLoadImageFrom(url:<wbr>intoImageView:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when the given image URL should be loaded in the given UIImageView</p>
+
+<ul>
+<li>url the URL to load</li>
+<li>imageView the UIImageView to load that image in</li>
+<li>completion optional completion block in case ClipShare is interested in whether image load was successfully finished or not</li>
+</ul>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/clipShareShouldCancelImageLoadingIn(imageView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">clipShareShouldCancelImageLoadingIn(imageView:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when any optional previous image loading in the given UIImageView should be cancelled</p>
+
+<ul>
+<li>imageView the UIImageView to cancel image loading in</li>
+</ul>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2023 <a class="link" href="https://snapscreen.com" target="_blank" rel="external noopener">Snapscreen Application GmbH</a>. All rights reserved. (Last updated: 2023-03-10)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>
