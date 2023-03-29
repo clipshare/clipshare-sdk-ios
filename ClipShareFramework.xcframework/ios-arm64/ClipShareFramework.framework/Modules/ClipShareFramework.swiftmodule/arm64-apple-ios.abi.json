@@ -3302,16 +3302,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ClipShareFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5678,35 +5668,35 @@
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3194,
+      "offset": 3193,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15954,
+      "offset": 16255,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17462,
+      "offset": 17763,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21873,
+      "offset": 22443,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "StringLiteral",
-      "offset": 725,
+      "offset": 724,
       "length": 23,
       "value": "\"ClipShareFramework.ClipShareViewController\""
     },
@@ -6187,62 +6177,6 @@
       "value": "\"href\""
     },
     {
-      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipSnap.swift",
-      "kind": "StringLiteral",
-      "offset": 572,
-      "length": 13,
-      "value": "\"tvChannelId\""
-    },
-    {
-      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipSnap.swift",
-      "kind": "StringLiteral",
-      "offset": 703,
-      "length": 11,
-      "value": "\"_embedded\""
-    },
-    {
-      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipSnap.swift",
-      "kind": "StringLiteral",
-      "offset": 787,
-      "length": 11,
-      "value": "\"createdAt\""
-    },
-    {
-      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipSnap.swift",
-      "kind": "StringLiteral",
-      "offset": 820,
-      "length": 8,
-      "value": "\"_links\""
-    },
-    {
-      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipSnap.swift",
-      "kind": "StringLiteral",
-      "offset": 572,
-      "length": 13,
-      "value": "\"tvChannelId\""
-    },
-    {
-      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipSnap.swift",
-      "kind": "StringLiteral",
-      "offset": 703,
-      "length": 11,
-      "value": "\"_embedded\""
-    },
-    {
-      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipSnap.swift",
-      "kind": "StringLiteral",
-      "offset": 787,
-      "length": 11,
-      "value": "\"createdAt\""
-    },
-    {
-      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipSnap.swift",
-      "kind": "StringLiteral",
-      "offset": 820,
-      "length": 8,
-      "value": "\"_links\""
-    },
-    {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/UI\/TrimFramePreviewView.swift",
       "kind": "IntegerLiteral",
       "offset": 266,
@@ -6644,56 +6578,56 @@
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareUIColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2406,
+      "offset": 2407,
       "length": 9,
       "value": "\"#16202C\""
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareUIColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2439,
+      "offset": 2440,
       "length": 9,
       "value": "\"#16202C\""
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareUIColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2692,
+      "offset": 2693,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareUIColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2725,
+      "offset": 2726,
       "length": 9,
       "value": "\"#16202C\""
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareUIColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2947,
+      "offset": 2948,
       "length": 9,
       "value": "\"#EA436E\""
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareUIColorConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 2965,
+      "offset": 2966,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareUIColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2990,
+      "offset": 2991,
       "length": 9,
       "value": "\"#EA436E\""
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareUIColorConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 3008,
+      "offset": 3009,
       "length": 1,
       "value": "1"
     },

@@ -257,7 +257,7 @@ using UInt = size_t;
 @class NSString;
 @class NSBundle;
 
-/// ClipShareViewController offfers the clip trimming and creation UI including all the video editing logic to your application. Instantiate via the provided class method.
+/// ClipShareViewController offers the clip trimming and creation UI including all the video editing logic to your application. Instantiate via the provided class method.
 /// It is recommended to present the ClipShareViewController in a UINavigationController right after Snapping with SnapViewController, but you can also present it in any other context. <em>Note</em>: ClipShareViewController does not dismiss itself or handle navigation in any way and you are responsible for reacting accordingly to the ClipShareDelegate methods.
 SWIFT_CLASS("_TtC18ClipShareFramework23ClipShareViewController")
 @interface ClipShareViewController : UIViewController
