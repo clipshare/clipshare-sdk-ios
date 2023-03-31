@@ -65,6 +65,15 @@ public enum ClipShareEnvironment {
   @_Concurrency.MainActor(unsafe) public class func forSportEventSnapResultOn(tvChannelId: Swift.Int, tvChannelLogoURL: Foundation.URL?, tvChannelName: Swift.String?, epgUnitNameFallback: Swift.String?, snapTimestamp: Swift.Int64, snapscreenAuthorizationHeader: Swift.String, clipShareDelegate: ClipShareFramework.ClipShareDelegate?) -> ClipShareFramework.ClipShareViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+    @objc get
+  }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @objc deinit
 }

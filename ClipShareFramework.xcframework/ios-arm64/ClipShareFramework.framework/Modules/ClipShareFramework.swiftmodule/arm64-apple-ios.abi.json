@@ -2148,6 +2148,165 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ClipShareFramework@objc(cs)ClipShareViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s18ClipShareFramework0aB14ViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "ClipShareFramework",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ClipShareFramework@objc(cs)ClipShareViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s18ClipShareFramework0aB14ViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "ClipShareFramework",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ClipShareFramework@objc(cs)ClipShareViewController(py)shouldAutorotate",
+            "mangledName": "$s18ClipShareFramework0aB14ViewControllerC16shouldAutorotateSbvp",
+            "moduleName": "ClipShareFramework",
+            "overriding": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ClipShareFramework@objc(cs)ClipShareViewController(im)shouldAutorotate",
+                "mangledName": "$s18ClipShareFramework0aB14ViewControllerC16shouldAutorotateSbvg",
+                "moduleName": "ClipShareFramework",
+                "overriding": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredInterfaceOrientationForPresentation",
+            "printedName": "preferredInterfaceOrientationForPresentation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientation",
+                "printedName": "UIKit.UIInterfaceOrientation",
+                "usr": "c:@E@UIInterfaceOrientation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ClipShareFramework@objc(cs)ClipShareViewController(py)preferredInterfaceOrientationForPresentation",
+            "mangledName": "$s18ClipShareFramework0aB14ViewControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceH0Vvp",
+            "moduleName": "ClipShareFramework",
+            "overriding": true,
+            "objc_name": "preferredInterfaceOrientationForPresentation",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientation",
+                    "printedName": "UIKit.UIInterfaceOrientation",
+                    "usr": "c:@E@UIInterfaceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ClipShareFramework@objc(cs)ClipShareViewController(im)preferredInterfaceOrientationForPresentation",
+                "mangledName": "$s18ClipShareFramework0aB14ViewControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceH0Vvg",
+                "moduleName": "ClipShareFramework",
+                "overriding": true,
+                "objc_name": "preferredInterfaceOrientationForPresentation",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "observeValue",
             "printedName": "observeValue(forKeyPath:of:change:context:)",
@@ -5381,7 +5540,7 @@
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/UI\/TrimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5800,
+      "offset": 5799,
       "length": 4,
       "value": "true"
     },
@@ -5675,21 +5834,21 @@
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16255,
+      "offset": 16631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17763,
+      "offset": 18139,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22443,
+      "offset": 22861,
       "length": 5,
       "value": "false"
     },
@@ -5990,58 +6149,135 @@
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 563,
+      "offset": 613,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 621,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 627,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 632,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 611,
+      "offset": 680,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 662,
+      "offset": 731,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 708,
+      "offset": 777,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 754,
+      "offset": 823,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 796,
+      "offset": 865,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 844,
+      "offset": 913,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 890,
+      "offset": 959,
       "length": 2,
       "value": "24"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1064,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1072,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1078,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1082,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1185,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1193,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1199,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/AppLayoutConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1203,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/SimpleNetworking\/ContentType.swift",

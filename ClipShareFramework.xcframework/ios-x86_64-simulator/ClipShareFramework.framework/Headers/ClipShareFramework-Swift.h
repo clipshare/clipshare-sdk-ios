@@ -267,6 +267,12 @@ SWIFT_CLASS("_TtC18ClipShareFramework23ClipShareViewController")
 /// :nodoc:
 - (void)viewWillDisappear:(BOOL)animated;
 /// :nodoc:
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+/// :nodoc:
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+/// :nodoc:
+@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
+/// :nodoc:
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
