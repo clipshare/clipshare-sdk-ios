@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5iVIlSPbQgO+DwQ4hpsXS2qSic8=
+		5A95ZKmU83w4D28vMaLm0RgoouA=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rLhS//+FFDg6dUKXSSKQTEi4oeY=
+		u0YOxDYMw1YrpXHN63C8MbKBnPI=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		V6nTCIU2JJDm4f6tndEzZfJzd+A=
+		YCsAdMpNPZo8mI0zpzbUQ6N2DIw=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+RnzPNK34hqVJ6Wl97kjdvfImFE=
+		0SE2pbv1V9pp2u3rhbgvyErErCM=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		V6nTCIU2JJDm4f6tndEzZfJzd+A=
+		YCsAdMpNPZo8mI0zpzbUQ6N2DIw=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o5yb3y/zEZxJCu9CeXp9iKjEbiw=
+		c5GGTIt0LMNQs3Ijpk5vW6rGG04=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yZTm5aV//SqR60Z69Z9+XZC6hTcwCnZkFzYxETbm73s=
+			zYe8ROVS02L3+lcmmcxXYnbtC0YpdUxfQ0Uts3RdFJc=
 			</data>
 		</dict>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2t92UOCVnwqXrLUovlJJThyZSPUHfDEnsTWbv8mwZys=
+			4/gG03ZnTI0i+wxO3fV8UQGvlT9q8kkAa9Sfcv5wog0=
 			</data>
 		</dict>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5BaU+XbrEtkGqbK9H1PBTRuHQ19qAqXfXeTHo1R12d0=
+			KvxqdCspvXtdfhehZ/WyV15CcqIzCHBgpJtvA28XSG4=
 			</data>
 		</dict>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2t92UOCVnwqXrLUovlJJThyZSPUHfDEnsTWbv8mwZys=
+			4/gG03ZnTI0i+wxO3fV8UQGvlT9q8kkAa9Sfcv5wog0=
 			</data>
 		</dict>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pnsYDFOcUMiAGBeUxXLdnsf9zv7qtPL7rzZCoAh3ZBQ=
+			xvsiu2rNO0ZkMm1WDqXChVlnAdohddDyprLBjFr0/iY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

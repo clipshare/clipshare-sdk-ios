@@ -23,6 +23,7 @@ extension ClipShareFramework.Clip {
 }
 public protocol ClipShareDelegate : AnyObject {
   func clipShareViewControllerDidFailLoadingClip(_ viewController: ClipShareFramework.ClipShareViewController)
+  func clipShareViewControllerDidFailWithTooShortClip(_ viewController: ClipShareFramework.ClipShareViewController)
   func clipShareViewControllerDidFailCreatingClip(_ viewController: ClipShareFramework.ClipShareViewController)
   func clipShareViewController(_ viewController: ClipShareFramework.ClipShareViewController, didCreateClip clip: ClipShareFramework.Clip)
   func clipShareShouldPrefetchURLs(_ imageURLs: [Foundation.URL]) -> Swift.AnyObject?
@@ -37,6 +38,7 @@ public protocol ClipShareDelegate : AnyObject {
   public var clipTimestampText: Swift.String
   public var clipMaximumLengthHint: Swift.String
   public var snapLoadingFailed: Swift.String
+  public var snapTooShortError: Swift.String
   public var clipCreationFailedMessage: Swift.String
   public var clipCreationFailedDismissButton: Swift.String
   @objc deinit

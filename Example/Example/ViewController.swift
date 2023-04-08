@@ -61,6 +61,10 @@ extension ViewController: ClipShareDelegate {
         
     }
     
+    func clipShareViewControllerDidFailWithTooShortClip(_ viewController: ClipShareViewController) {
+        
+    }
+    
     func clipShareViewController(_ viewController: ClipShareViewController, didCreateClip clip: Clip) {
         viewController.dismiss(animated: true) { [weak self] in
             DispatchQueue.main.async {
