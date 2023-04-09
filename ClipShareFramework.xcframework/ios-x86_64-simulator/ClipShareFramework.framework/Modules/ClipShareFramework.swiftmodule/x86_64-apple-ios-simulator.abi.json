@@ -47,30 +47,90 @@
         "printedName": "Clip",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
+            "kind": "Var",
+            "name": "clipId",
+            "printedName": "clipId",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Clip",
-                "printedName": "ClipShareFramework.Clip",
-                "usr": "s:18ClipShareFramework0A0V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:18ClipShareFramework0A0V4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s18ClipShareFramework0A0V4fromACs7Decoder_p_tKcfc",
+            "declKind": "Var",
+            "usr": "s:18ClipShareFramework0A0C6clipIdSSvp",
+            "mangledName": "$s18ClipShareFramework0A0C6clipIdSSvp",
             "moduleName": "ClipShareFramework",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ClipShareFramework0A0C6clipIdSSvg",
+                "mangledName": "$s18ClipShareFramework0A0C6clipIdSSvg",
+                "moduleName": "ClipShareFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ClipShareFramework0A0C6clipIdSSvs",
+                "mangledName": "$s18ClipShareFramework0A0C6clipIdSSvs",
+                "moduleName": "ClipShareFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ClipShareFramework0A0C6clipIdSSvM",
+                "mangledName": "$s18ClipShareFramework0A0C6clipIdSSvM",
+                "moduleName": "ClipShareFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -93,14 +153,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18ClipShareFramework0A0V8videoURL10Foundation0E0VSgvp",
-            "mangledName": "$s18ClipShareFramework0A0V8videoURL10Foundation0E0VSgvp",
+            "usr": "s:18ClipShareFramework0A0C8videoURL10Foundation0E0VSgvp",
+            "mangledName": "$s18ClipShareFramework0A0C8videoURL10Foundation0E0VSgvp",
             "moduleName": "ClipShareFramework",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
-            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -123,10 +182,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18ClipShareFramework0A0V8videoURL10Foundation0E0VSgvg",
-                "mangledName": "$s18ClipShareFramework0A0V8videoURL10Foundation0E0VSgvg",
+                "usr": "s:18ClipShareFramework0A0C8videoURL10Foundation0E0VSgvg",
+                "mangledName": "$s18ClipShareFramework0A0C8videoURL10Foundation0E0VSgvg",
                 "moduleName": "ClipShareFramework",
-                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -152,14 +210,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18ClipShareFramework0A0V12thumbnailURL10Foundation0E0VSgvp",
-            "mangledName": "$s18ClipShareFramework0A0V12thumbnailURL10Foundation0E0VSgvp",
+            "usr": "s:18ClipShareFramework0A0C12thumbnailURL10Foundation0E0VSgvp",
+            "mangledName": "$s18ClipShareFramework0A0C12thumbnailURL10Foundation0E0VSgvp",
             "moduleName": "ClipShareFramework",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
-            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -182,18 +239,46 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18ClipShareFramework0A0V12thumbnailURL10Foundation0E0VSgvg",
-                "mangledName": "$s18ClipShareFramework0A0V12thumbnailURL10Foundation0E0VSgvg",
+                "usr": "s:18ClipShareFramework0A0C12thumbnailURL10Foundation0E0VSgvg",
+                "mangledName": "$s18ClipShareFramework0A0C12thumbnailURL10Foundation0E0VSgvg",
                 "moduleName": "ClipShareFramework",
-                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Clip",
+                "printedName": "ClipShareFramework.Clip",
+                "usr": "s:18ClipShareFramework0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18ClipShareFramework0A0C4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18ClipShareFramework0A0C4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ClipShareFramework",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:18ClipShareFramework0A0V",
-        "mangledName": "$s18ClipShareFramework0A0V",
+        "declKind": "Class",
+        "usr": "s:18ClipShareFramework0A0C",
+        "mangledName": "$s18ClipShareFramework0A0C",
         "moduleName": "ClipShareFramework",
         "declAttributes": [
           "AccessControl",
@@ -439,12 +524,12 @@
                 "kind": "TypeNominal",
                 "name": "Clip",
                 "printedName": "ClipShareFramework.Clip",
-                "usr": "s:18ClipShareFramework0A0V"
+                "usr": "s:18ClipShareFramework0A0C"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ClipShareFramework0aB8DelegateP04clipB14ViewController_09didCreateA0yAA0abfG0C_AA0A0VtF",
-            "mangledName": "$s18ClipShareFramework0aB8DelegateP04clipB14ViewController_09didCreateA0yAA0abfG0C_AA0A0VtF",
+            "usr": "s:18ClipShareFramework0aB8DelegateP04clipB14ViewController_09didCreateA0yAA0abfG0C_AA0A0CtF",
+            "mangledName": "$s18ClipShareFramework0aB8DelegateP04clipB14ViewController_09didCreateA0yAA0abfG0C_AA0A0CtF",
             "moduleName": "ClipShareFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : ClipShareFramework.ClipShareDelegate>",
             "sugared_genericSig": "<Self where Self : ClipShareFramework.ClipShareDelegate>",
@@ -5446,28 +5531,28 @@
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Clip.swift",
       "kind": "StringLiteral",
-      "offset": 295,
+      "offset": 341,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Clip.swift",
       "kind": "StringLiteral",
-      "offset": 321,
+      "offset": 367,
       "length": 8,
       "value": "\"_links\""
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Clip.swift",
       "kind": "StringLiteral",
-      "offset": 295,
+      "offset": 341,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Clip.swift",
       "kind": "StringLiteral",
-      "offset": 321,
+      "offset": 367,
       "length": 8,
       "value": "\"_links\""
     },

@@ -10,16 +10,16 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
-public struct Clip : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
-}
-extension ClipShareFramework.Clip {
+public class Clip : Swift.Decodable {
+  public var clipId: Swift.String
   public var videoURL: Foundation.URL? {
     get
   }
   public var thumbnailURL: Foundation.URL? {
     get
   }
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
 }
 public protocol ClipShareDelegate : AnyObject {
   func clipShareViewControllerDidFailLoadingClip(_ viewController: ClipShareFramework.ClipShareViewController)
