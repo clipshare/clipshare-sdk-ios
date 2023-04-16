@@ -2603,6 +2603,50 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "showLoadingIndicatorInSaveClipButton",
+            "printedName": "showLoadingIndicatorInSaveClipButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ClipShareFramework0aB14ViewControllerC026showLoadingIndicatorInSaveA6ButtonyyF",
+            "mangledName": "$s18ClipShareFramework0aB14ViewControllerC026showLoadingIndicatorInSaveA6ButtonyyF",
+            "moduleName": "ClipShareFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissLoadingIndicatorInSaveClipButton",
+            "printedName": "dismissLoadingIndicatorInSaveClipButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ClipShareFramework0aB14ViewControllerC029dismissLoadingIndicatorInSaveA6ButtonyyF",
+            "mangledName": "$s18ClipShareFramework0aB14ViewControllerC029dismissLoadingIndicatorInSaveA6ButtonyyF",
+            "moduleName": "ClipShareFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(nibName:bundle:)",
@@ -4735,6 +4779,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ClipShareFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ClipShareFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "String",
         "printedName": "String",
@@ -6035,21 +6096,21 @@
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16843,
+      "offset": 16949,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18351,
+      "offset": 18457,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/ClipShareViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23073,
+      "offset": 23179,
       "length": 5,
       "value": "false"
     },
@@ -7326,6 +7387,13 @@
       "offset": 8872,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/developer\/jenkins\/workspace\/iOS apps\/ClipShare iOS Framework - production\/ClipShareFramework\/Utils\/UIButtonExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 214,
+      "length": 4,
+      "value": "1921"
     }
   ]
 }

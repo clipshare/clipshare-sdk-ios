@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ClipShareFramework-Swift.h</key>
 		<data>
-		Px4GZhQtE9DZawuBRwDqZaiS0t4=
+		eX0jZIsP+wSz2vMNhTnx0B0fjzY=
 		</data>
 		<key>Headers/ClipShareFramework.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nahqFNJeCpxhcoIJdH/SEdB4znk=
+		YI0PrrixQ7EuhU4FIZffoGCPE3g=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		aQQz1IzKNsNbxap4QAkKHIoALxA=
+		tVzM7kH2e6zTsTDJBlMOzx+c4rw=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Rd0BsoH8Z3vjb9QvGAV0E1j1UDo=
+		lK1ImkuWjtkeAGspZX0RGdXHsJk=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		q1I5L3kZ2fCsiY2ddBiG0UvujCw=
+		0VlZQNT6ivkBdWyUo2nGlMuDnMg=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Rd0BsoH8Z3vjb9QvGAV0E1j1UDo=
+		lK1ImkuWjtkeAGspZX0RGdXHsJk=
 		</data>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		a59UOe7zRhzbh0Rm7iGdXuTR4sQ=
+		feo73dfh3b8HA+a45VRzECYYsgE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VXUUyGma4wVYsKVXh8DtKIF/RH5SwntfsFJRX0NbkZQ=
+			+caqHSnmyZNhOwlMBcFJ4d25kGHqCaHt5VVbXj7DJIo=
 			</data>
 		</dict>
 		<key>Headers/ClipShareFramework.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M6WslAXyMGYuI6TcJyzt9q3qRnnKFajxixJZ+FKp6S4=
+			hWmg3J0M/ZDx+iaCjobW30L5FyPniN4XDyvV8dd4j7s=
 			</data>
 		</dict>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iN5ozA9RYhihgDLDFOUiNi9Km/1NkeEtpKhNUa9I/pc=
+			Ezt4t3NyVFm25NED1MUSXT14mgAECglqHAcimOgS1RM=
 			</data>
 		</dict>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hXVWEaTb3Jr9Ctuwj05Bs6jsSwBeYwPmmzyGkCxI7sk=
+			vkuSry92GSi8KIqhe6GLshDBCFle0NEBA/mFxGm/e6Y=
 			</data>
 		</dict>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iN5ozA9RYhihgDLDFOUiNi9Km/1NkeEtpKhNUa9I/pc=
+			Ezt4t3NyVFm25NED1MUSXT14mgAECglqHAcimOgS1RM=
 			</data>
 		</dict>
 		<key>Modules/ClipShareFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zo5jjGNrnjmeACIxfvaNDhx1+A6nn8iNMFA2IMY/7w4=
+			BcwPp9rTIhZtbvMG7YwQNZrn497kPJAr97boSIHSN38=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

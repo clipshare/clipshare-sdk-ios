@@ -77,6 +77,8 @@ public enum ClipShareEnvironment {
     @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) public func showLoadingIndicatorInSaveClipButton()
+  @_Concurrency.MainActor(unsafe) public func dismissLoadingIndicatorInSaveClipButton()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ClipShareUIFontConfiguration {

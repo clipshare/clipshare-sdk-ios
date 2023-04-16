@@ -286,6 +286,7 @@ SWIFT_CLASS("_TtC18ClipShareFramework23ClipShareViewController")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
